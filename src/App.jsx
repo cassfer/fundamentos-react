@@ -3,6 +3,7 @@ import React from 'react';
 
 import Card from './components/layout/Card';
 
+import Contador from './components/contador/Contador';
 import UsuarioInfo from './components/condicinal/UsuarioInfo'
 import ParOuImpar from './components/condicinal/ParOuImpar'
 import Primeiro from './components/basicos/Primeiro';
@@ -22,6 +23,9 @@ export default function App() {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="#12 - Contador" color="#424242">
+                    <Contador numeroInicial={10} />
+                </Card>
                 <Card titulo="#11 - Componente Controlado (Input)" color="#E45F56">
                     <Input></Input>
                 </Card>

@@ -10,7 +10,7 @@ export default function Input (props){
     }
 
     return(
-        <div style={{
+        <div className="Input" style={{
             display: 'flex',
             textAlign: 'center',
             flexDirection: 'column'
